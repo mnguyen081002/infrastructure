@@ -33,10 +33,10 @@ spec:
       volumes:
         - name: config-volume
           configMap:
-            name: dev-config
+            name: user-service-dev-config
         - name: keys-volume
           configMap:
-            name: dev-keys
+            name: user-service-dev-keys
 ---
 apiVersion: v1
 kind: Service
