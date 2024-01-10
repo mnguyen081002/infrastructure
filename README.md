@@ -10,7 +10,7 @@ Go to the service directory and run: `docker build -t <image-name> .`
 
 ##### 2. Create configmap for per service
 
-`kubectl create configmap <service-name>-dev-config --from-file=./config/<service-name>-config.yaml`
+`kubectl create configmap <service-name>-dev-config --from-file=./config/<service-name>/config.yaml`
 
 <i>Now only for user service:</i>
 
