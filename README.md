@@ -14,7 +14,7 @@ Go to the service directory and run: `docker build -t <image-name> .`
 
 <i>Now only for user service:</i>
 
-`kubectl create configmap <service-name>-dev-keys --from-file=keys`
+`kubectl create configmap <service-name>-dev-keys --from-file=./config/keys`
 
 ##### 3. Create database service
 
